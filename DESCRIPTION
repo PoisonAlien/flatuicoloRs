@@ -1,0 +1,15 @@
+Package: flatuicoloRs
+Type: flatuicolor palettes
+Title: The goal of `flatUIcoloRs` is to make available color palettes from the popular 
+https: //flatuicolors.com/ in R
+Version: 0.1.0
+Authors@R: c(
+  person("Anand","Mayakonda", role = c("aut", "cre"), email = "anandmt3@gmail.com"))
+Maintainer: Anand Mayakonda <anandmt3@gmail.com>
+Description: The goal of `flatUIcoloRs` is to make available color palettes from the popular 
+[flatuicolors](https: //flatuicolors.com/) in `R`. All the major credit goes to [Ahmet Sülek](https://medium.com/@ahmetsulek) and rest of the contributors.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: berryFunctions 
+RoxygenNote: 7.0.2
