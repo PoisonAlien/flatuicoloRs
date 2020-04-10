@@ -1,12 +1,15 @@
 
 # flatuicoloRs
 
-The goal of `flatuicoloRs` is to make available color palettes from the popular 
-[flatuicolors](https://flatuicolors.com/) in `R`. All the major credit goes to [Ahmet Sülek](https://medium.com/@ahmetsulek) and rest of the contributors.
+The goal of `flatuicoloRs` is to make available web-safe color palettes from the popular 
+[flatuicolors](https://flatuicolors.com/) in `R`. All the major credit goes to [Ahmet Sülek](https://medium.com/@ahmetsulek) and rest of the [contributors](https://medium.com/collect-ui-design-ui-ux-inspiration-blog/flat-ui-colors-2-13-countries-13-designers-13-color-palettes-more-1d0ecdd66301).
 
 For details and an interactive palette selection visit [flatuicolors.com](https://flatuicolors.com/)
 
-There are total 15 color palettes available, 13 of which are provided by 13 people from [13 different countries](https://medium.com/collect-ui-design-ui-ux-inspiration-blog/flat-ui-colors-2-13-countries-13-designers-13-color-palettes-more-1d0ecdd66301).
+There are total 15 color palettes available.
+
+* Two flat palettes: `flatUIv1` and `materialui`
+* 13 palettes from [13 different countries](https://medium.com/collect-ui-design-ui-ux-inspiration-blog/flat-ui-colors-2-13-countries-13-designers-13-color-palettes-more-1d0ecdd66301).
 
 
 ### Installation and Usage
@@ -53,7 +56,7 @@ american     aussie    british   canadian    chinese      dutch   flatUIv1
 
 ### american :us:
 <p align="center">
-inst/extdata/american.png">
+<img src="inst/extdata/american.png">
 </p>
 
 ### aussie :australia:
