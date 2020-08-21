@@ -1,162 +1,338 @@
 #Colors are compiled from https://flatuicolors.com/
 
 .giveme_col = function(){
-  flatUIv1 = c("#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#34495e",
-               "#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50",
-               "#f1c40f", "#e67e22", "#e74c3c", "#ecf0f1", "#95a5a6",
-               "#f39c12", "#d35400", "#c0392b", "#bdc3c7", "#7f8c8d")
-  names(flatUIv1) = c("Turquoise", "Emerald", "PeterRiver", "Amethyst", "WetAsphalt",
-                      "GreenSea", "Nephritis", "BelizeHole", "Wisteria", "MidnightBlue",
-                      "SunFlower", "Carrot", "Alizarin", "Clouds", "Concrete",
-                      "Orange", "Pumpkin", "Pomegranate", "Silver", "Asbestos")
-  #----------------------------------------------------------------------------------------
 
-  materialui = c("#F44336", "#E91E63", "#9C27B0", "#673AB7", "#3F51B5",
-                 "#2196F3", "#03A9F4", "#00BCD4", "#009688", "#4CAF50",
-                 "#8BC34A", "#CDDC39", "#FFEB3B", "#FFC107", "#FF9800",
-                 "#FF5722", "#795548", "#9E9E9E", "#607D8B")
-  names(materialui) = c("Red", "Pink", "Purple", "DeepPurple", "Indigo",
-                        "Blue", "LightBlue", "Cyan", "Teal", "Green",
-                        "LightGreen", "Lime", "Yellow", "Amber", "Orange",
-                        "DeepOrange", "Brown", "Grey", "BlueGrey")
-  #----------------------------------------------------------------------------------------
-
-  american = c("#55efc4", "#81ecec", "#74b9ff", "#a29bfe", "#dfe6e9",
-               "#00b894", "#00cec9", "#0984e3", "#6c5ce7", "#b2bec3",
-               "#ffeaa7", "#fab1a0", "#ff7675", "#fd79a8", "#636e72",
-               "#fdcb6e", "#e17055", "#d63031", "#e84393", "#2d3436")
-  names(american) = c("LightGreenishBlue", "FadedPoster", "GreenDarnerTail", "ShyMoment", "CityLight",
-                      "MintLeaf", "RobinsEggBlue", "ElectronBlue", "ExodusFruit", "SoothingBreeze",
-                      "SourLemon", "FirstDate", "PinkGlamour", "Pico8Pink", "AmericanRiver",
-                      "BrightYarrow", "OrangeVille", "ChiGong", "PrunusAvium", "DraculaOrchid")
-  #----------------------------------------------------------------------------------------
-
-  aussie = c("#f6e58d", "#ffbe76", "#ff7979", "#badc58", "#dff9fb",
-             "#f9ca24", "#f0932b", "#eb4d4b", "#6ab04c", "#c7ecee",
-             "#7ed6df", "#e056fd", "#686de0", "#30336b", "#95afc0",
-             "#22a6b3", "#be2edd", "#4834d4", "#130f40", "#535c68")
-  names(aussie) = c("Beekeeper", "SpicedNectarine", "PinkGlamour", "JuneBud", "CoastalBreed",
-                    "Turbo", "QueenJelly", "CarminePink", "PureApple", "HintOfIcePack",
-                    "MiddleBlue", "Heliotrope", "ExodusFruit", "DeepKoamaru", "SoaringEagle",
-                    "GreenlandGreen", "SteelPink", "Blurple", "Deepcove", "WizardGrey")
-  #----------------------------------------------------------------------------------------
-
-  british = c("#00a8ff", "#9c88ff", "#fbc531", "#4cd137", "#487eb0",
-              "#0097e6", "#8c7ae6", "#e1b12c", "#44bd32", "#40739e",
-              "#e84118", "#f5f6fa", "#7f8fa6", "#273c75", "#353b48",
-              "#c23616", "#dcdde1", "#718093", "#192a56", "#2f3640")
-  names(british) = c("ProtossPylon", "PeriWinkle", "RiseNShine", "DownloadProgress", "SeaBrock",
-                     "VanadylBlue", "MattPurple", "NanohanachaGold", "SkirretGreen", "Naval",
-                     "NasturcianFlower", "LynxWhite", "BlueberrySoda", "MazarineBlue", "BlueNights",
-                     "HarleyDavidsonOrange", "HintOfPensive", "ChainGangGrey", "PicoVoid", "Electromagnetic")
-  #----------------------------------------------------------------------------------------
-
-  canadian = c("#ff9ff3", "#feca57", "#ff6b6b", "#48dbfb", "#1dd1a1",
-               "#f368e0", "#ff9f43", "#ee5253", "#0abde3", "#10ac84",
-               "#00d2d3", "#54a0ff", "#5f27cd", "#c8d6e5", "#576574",
-               "#01a3a4", "#2e86de", "#341f97", "#8395a7", "#222f3e")
-  names(canadian) = c("Jigglypuff", "CasandoraYellow", "PastelRed", "Megaman", "WidlCaribbeanGreen",
-                      "LionHongLotusPink", "DoubleDragonSkin", "Amour", "Cyanite", "DarkMountainMeadow",
-                      "JadeDust", "JoustBlue", "NasuPurple", "LightBlueBallerina", "FuelTown",
-                      "AquaVelvet", "BleuDeFrance", "BlueBell", "StromPeterl", "ImperialPrimer")
-  #----------------------------------------------------------------------------------------
-
-  chinese = c("#eccc68", "#ff7f50", "#ff6b81", "#a4b0be", "#57606f",
-              "#ffa502", "#ff6348", "#ff4757", "#747d8c", "#2f3542",
-              "#7bed9f", "#70a1ff", "#5352ed", "#ffffff", "#dfe4ea",
-              "#2ed573", "#1e90ff", "#3742fa", "#f1f2f6", "#ced6e0")
-  names(chinese) = c("GoldenSand", "Coral", "WildWatermelon", "Peace", "Grisaille",
-                     "Orange", "BruschettaTomato", "Watermelon", "BayWharf", "PrestigeBlue",
-                     "LimeSoap", "FrenchSkyBlue", "StauratedSky", "Bright", "CityLights",
-                     "UFOgreen", "ClearChill", "BrightGreek", "AntiFlashWhite", "TwinkeBlue")
-  #----------------------------------------------------------------------------------------
-
-  dutch = c("#FFC312", "#C4E538", "#12CBC4", "#FDA7DF", "#ED4C67",
-            "#F79F1F", "#A3CB38", "#1289A7", "#D980FA", "#B53471",
-            "#EE5A24", "#009432", "#0652DD", "#9980FA", "#833471",
-            "#EA2027", "#006266", "#1B1464", "#5758BB", "#6F1E51")
-  names(dutch) = c("Sunflower", "Energos", "BlueMartina", "LavenderRose", "BaraRed",
-                   "RadiantYellow", "AndroidGreen", "MediterraneanSea", "LavenderTea", "VeryBerry",
-                   "PuffinsBill", "PixelatedGrass", "MerchantMarineBlue", "ForgottenPurple", "HollyHock",
-                   "RedPigment", "TurkishAqua", "20000LeaguesUnderTheSea", "CircumorbitalRing", "MagnetaPurple")
-  #----------------------------------------------------------------------------------------
-
-  french = c("#fad390", "#f8c291", "#6a89cc", "#82ccdd", "#b8e994",
-             "#f6b93b", "#e55039", "#4a69bd", "#60a3bc", "#78e08f",
-             "#fa983a", "#eb2f06", "#1e3799", "#3c6382", "#38ada9",
-             "#e58e26", "#b71540", "#0c2461", "#0a3d62", "#079992")
-  names(french) = c("FlatFlesh", "MelonMelody", "Livid", "Spray", "ParadiseGreen",
-                    "SquashBlossom", "MandarinRed", "AzraqBlue", "Dupain", "AuroraGreen",
-                    "IcelandPoppy", "TomatoRed", "YueGuangLanBlue", "GoodSamaritan", "Waterfall",
-                    "CarrotOrange", "JalapenoRed", "DarkSaphire", "ForestBlues", "ReefEncounter")
-  #----------------------------------------------------------------------------------------
-
-  german = c("#fc5c65", "#fd9644", "#fed330", "#26de81", "#2bcbba",
-             "#eb3b5a", "#fa8231", "#f7b731", "#20bf6b", "#0fb9b1",
-             "#45aaf2", "#4b7bec", "#a55eea", "#d1d8e0", "#778ca3",
-             "#2d98da", "#3867d6", "#8854d0", "#a5b1c2", "#4b6584")
-  names(german) = c("FusionRed", "OrangeHibiscus", "Flirtatious", "ReptileGreen", "MaximumBlueGreen",
-                    "Desire", "BeniukonBronze", "NYCTaxi", "AlgalFuel", "TurquoiseTopaz",
-                    "HighBlue", "C64NTSC", "LighterPurple", "TwinkleBlue", "BlueGrey",
-                    "Boyzone", "Royalblue", "GloomyPurple", "Innuendo", "BlueHorizon")
-  #----------------------------------------------------------------------------------------
-
-  indian = c("#FEA47F", "#25CCF7", "#EAB543", "#55E6C1", "#CAD3C8",
-             "#F97F51", "#1B9CFC", "#F8EFBA", "#58B19F", "#2C3A47",
-             "#B33771", "#3B3B98", "#FD7272", "#9AECDB", "#D6A2E8",
-             "#6D214F", "#182C61", "#FC427B", "#BDC581", "#82589F")
-  names(indian) = c("OrchidOrange", "SpiroDiscoBall", "HoneyGlow", "SweetGarden", "FallingStar",
-                    "RichGardenia", "ClearChill", "SalawakWhitePepper", "Keppel", "ShipsOfficer",
-                    "FieryFuchsia", "BlueBell", "GeorgiaPeach", "OasisStream", "BrightUbe",
-                    "MagnetaPurple", "EndingNavyBlue", "SasquatchSocks", "PineGlade", "HighlanderLavender")
-  #----------------------------------------------------------------------------------------
-
-  russian = c("#f3a683", "#f7d794", "#778beb", "#e77f67", "#cf6a87",
-              "#f19066", "#f5cd79", "#546de5", "#e15f41", "#c44569",
-              "#786fa6", "#f8a5c2", "#63cdda", "#ea8685", "#596275",
-              "#574b90", "#f78fb3", "#3dc1d3", "#e66767", "#303952")
-  names(russian) = c("CreamyPeach", "RosyHighlight", "SoftBlue", "BrewedMustard", "OldGeranium",
-                     "SawtoothOak", "Summertime", "Cornflower", "Tigerlily", "DeepRose",
-                     "PurpleMountainMajesty", "RoguePink", "Squeaky", "AppleValley", "PencilLead",
-                     "PurpleCorallite", "FlamingoPink", "BlueCuracao", "PorcelainRose", "Biscay")
-  #----------------------------------------------------------------------------------------
-
-  spanish = c("#40407a", "#706fd3", "#f7f1e3", "#34ace0", "#33d9b2",
-              "#2c2c54", "#474787", "#aaa69d", "#227093", "#218c74",
-              "#ff5252", "#ff793f", "#d1ccc0", "#ffb142", "#ffda79",
-              "#b33939", "#cd6133", "#84817a", "#cc8e35", "#ccae62")
-  names(spanish) = c("JacksonsPurple", "C64Purple", "SwanWhite", "SummerSky", "CelestialBlue",
-                     "LuckyPoint", "Liberty", "HotStone", "DevilBlue", "PalmSpringSplash",
-                     "FluorescentRed", "SyntheticPumpkin", "CrocodileTooth", "MandarinSorbet", "SpicedButternut",
-                     "EyeOfNewt", "ChileanFire", "GreyProcelain", "AlamedaOchre", "Desert")
-  #----------------------------------------------------------------------------------------
-
-  swedish = c("#ef5777", "#575fcf", "#4bcffa", "#34e7e4", "#0be881",
-              "#f53b57", "#3c40c6", "#0fbcf9", "#00d8d6", "#05c46b",
-              "#ffc048", "#ffdd59", "#ff5e57", "#d2dae2", "#485460",
-              "#ffa801", "#ffd32a", "#ff3f34", "#808e9b", "#1e272e")
-  names(swedish) = c("HighlighterPink", "DarkPeriwinkle", "Megaman", "FreshTurquoise", "MintyGren",
-                     "SizzlingRed", "FreshSpeechBlue", "SpiroDiscoBall", "JadeDust", "GreenTeal",
-                     "NarenjiOrange", "YrielYellow", "SusetOrange", "HintOfElusiveBlue", "GoodNight!",
-                     "ChromeYellow", "VibrantYellow", "RedORange", "LondonSquare", "BlackPearl")
-  #----------------------------------------------------------------------------------------
-
-  turkish = c("#cd84f1", "#ffcccc", "#ff4d4d", "#ffaf40", "#fffa65",
-              "#c56cf0", "#ffb8b8", "#ff3838", "#ff9f1a", "#fff200",
-              "#32ff7e", "#7efff5", "#18dcff", "#7d5fff", "#4b4b4b",
-              "#3ae374", "#67e6dc", "#17c0eb", "#7158e2", "#3d3d3d")
-  names(turkish) = c("BrightLilac", "PrettyPlease", "LightRed", "MandarinSorbet", "UnmellowYellow",
-                     "LightPurple", "YoungSalmon", "RedOrange", "RadiantYellow", "CornYellow",
-                     "WinterGreen", "ElectricBlue", "NeonBlue", "LightSlateBlue", 'ShadowedSteel',
-                     "WeirdGreen", "HammamBlue", "SpiroDiscoBall", "LightIndigo", "BalticSea")
-  #----------------------------------------------------------------------------------------
-
-  col_list = list(american, aussie, british, canadian, chinese,
-                  dutch, flatUIv1, french, german, indian, materialui,
-                  russian, spanish, swedish, turkish)
-  names(col_list) = c("american", "aussie", "british", "canadian", "chinese",
-                      "dutch", "flatUIv1", "french", "german", "indian", "materialui",
-                      "russian", "spanish", "swedish", "turkish")
+  col_list = list(
+    american = c(
+      PrunusAvium = "#e84393",
+      ElectronBlue = "#0984e3",
+      ExodusFruit = "#6c5ce7",
+      FirstDate = "#fab1a0",
+      SoothingBreeze = "#b2bec3",
+      MintLeaf = "#00b894",
+      SourLemon = "#ffeaa7",
+      DraculaOrchid = "#2d3436",
+      FadedPoster = "#81ecec",
+      ShyMoment = "#a29bfe",
+      PinkGlamour = "#ff7675",
+      RobinsEggBlue = "#00cec9",
+      CityLight = "#dfe6e9",
+      ChiGong = "#d63031",
+      Pico8Pink = "#fd79a8",
+      BrightYarrow = "#fdcb6e",
+      OrangeVille = "#e17055",
+      LightGreenishBlue = "#55efc4",
+      AmericanRiver = "#636e72",
+      GreenDarnerTail = "#74b9ff"
+    ),
+    aussie = c(
+      GreenlandGreen = "#22a6b3",
+      Heliotrope = "#e056fd",
+      Turbo = "#f9ca24",
+      CarminePink = "#eb4d4b",
+      JuneBud = "#badc58",
+      Beekeeper = "#f6e58d",
+      SteelPink = "#be2edd",
+      DeepKoamaru = "#30336b",
+      MiddleBlue = "#7ed6df",
+      HintOfIcePack = "#c7ecee",
+      PureApple = "#6ab04c",
+      PinkGlamour = "#ff7979",
+      SpicedNectarine = "#ffbe76",
+      WizardGrey = "#535c68",
+      SoaringEagle = "#95afc0",
+      QueenJelly = "#f0932b",
+      Blurple = "#4834d4",
+      ExodusFruit = "#686de0",
+      CoastalBreed = "#dff9fb",
+      Deepcove = "#130f40"
+    ),
+    british = c(
+      HarleyDavidsonOrange = "#c23616",
+      RiseNShine = "#fbc531",
+      LynxWhite = "#f5f6fa",
+      HintOfPensive = "#dcdde1",
+      Naval = "#40739e",
+      ProtossPylon = "#00a8ff",
+      Electromagnetic = "#2f3640",
+      PeriWinkle = "#9c88ff",
+      MazarineBlue = "#273c75",
+      SeaBrock = "#487eb0",
+      ChainGangGrey = "#718093",
+      MattPurple = "#8c7ae6",
+      DownloadProgress = "#4cd137",
+      BlueNights = "#353b48",
+      NanohanachaGold = "#e1b12c",
+      VanadylBlue = "#0097e6",
+      NasturcianFlower = "#e84118",
+      BlueberrySoda = "#7f8fa6",
+      PicoVoid = "#192a56",
+      SkirretGreen = "#44bd32"
+    ),
+    canadian = c(
+      AquaVelvet = "#01a3a4",
+      JoustBlue = "#54a0ff",
+      WidlCaribbeanGreen = "#1dd1a1",
+      DoubleDragonSkin = "#ff9f43",
+      PastelRed = "#ff6b6b",
+      LightBlueBallerina = "#c8d6e5",
+      Jigglypuff = "#ff9ff3",
+      CasandoraYellow = "#feca57",
+      BleuDeFrance = "#2e86de",
+      NasuPurple = "#5f27cd",
+      LionHongLotusPink = "#f368e0",
+      BlueBell = "#341f97",
+      DarkMountainMeadow = "#10ac84",
+      StromPeterl = "#8395a7",
+      FuelTown = "#576574",
+      Megaman = "#48dbfb",
+      JadeDust = "#00d2d3",
+      ImperialPrimer = "#222f3e",
+      Amour = "#ee5253",
+      Cyanite = "#0abde3"
+    ),
+    chinese = c(
+      StauratedSky = "#5352ed",
+      FrenchSkyBlue = "#70a1ff",
+      Peace = "#a4b0be",
+      Orange = "#ffa502",
+      BayWharf = "#747d8c",
+      GoldenSand = "#eccc68",
+      Watermelon = "#ff4757",
+      PrestigeBlue = "#2f3542",
+      WildWatermelon = "#ff6b81",
+      CityLights = "#dfe4ea",
+      LimeSoap = "#7bed9f",
+      BrightGreek = "#3742fa",
+      UFOgreen = "#2ed573",
+      TwinkeBlue = "#ced6e0",
+      Coral = "#ff7f50",
+      Grisaille = "#57606f",
+      AntiFlashWhite = "#f1f2f6",
+      BruschettaTomato = "#ff6348",
+      Bright = "#ffffff",
+      ClearChill = "#1e90ff"
+    ),
+    dutch = c(
+      LavenderTea = "#D980FA",
+      TurkishAqua = "#006266",
+      Energos = "#C4E538",
+      ForgottenPurple = "#9980FA",
+      MerchantMarineBlue = "#0652DD",
+      PixelatedGrass = "#009432",
+      MagnetaPurple = "#6F1E51",
+      `20000LeaguesUnderTheSea` = "#1B1464",
+      PuffinsBill = "#EE5A24",
+      RadiantYellow = "#F79F1F",
+      HollyHock = "#833471",
+      BaraRed = "#ED4C67",
+      Sunflower = "#FFC312",
+      RedPigment = "#EA2027",
+      MediterraneanSea = "#1289A7",
+      CircumorbitalRing = "#5758BB",
+      AndroidGreen = "#A3CB38",
+      VeryBerry = "#B53471",
+      LavenderRose = "#FDA7DF",
+      BlueMartina = "#12CBC4"
+    ),
+    flatUIv1 = c(
+      Orange = "#f39c12",
+      SunFlower = "#f1c40f",
+      PeterRiver = "#3498db",
+      Clouds = "#ecf0f1",
+      Concrete = "#95a5a6",
+      MidnightBlue = "#2c3e50",
+      Amethyst = "#9b59b6",
+      Alizarin = "#e74c3c",
+      Silver = "#bdc3c7",
+      Carrot = "#e67e22",
+      Pomegranate = "#c0392b",
+      Nephritis = "#27ae60",
+      Pumpkin = "#d35400",
+      Asbestos = "#7f8c8d",
+      GreenSea = "#16a085",
+      Wisteria = "#8e44ad",
+      Turquoise = "#1abc9c",
+      WetAsphalt = "#34495e",
+      BelizeHole = "#2980b9",
+      Emerald = "#2ecc71"
+    ),
+    french = c(
+      ReefEncounter = "#079992",
+      Waterfall = "#38ada9",
+      Livid = "#6a89cc",
+      FlatFlesh = "#fad390",
+      YueGuangLanBlue = "#1e3799",
+      AuroraGreen = "#78e08f",
+      SquashBlossom = "#f6b93b",
+      MelonMelody = "#f8c291",
+      AzraqBlue = "#4a69bd",
+      CarrotOrange = "#e58e26",
+      MandarinRed = "#e55039",
+      Spray = "#82ccdd",
+      DarkSaphire = "#0c2461",
+      IcelandPoppy = "#fa983a",
+      JalapenoRed = "#b71540",
+      Dupain = "#60a3bc",
+      ForestBlues = "#0a3d62",
+      TomatoRed = "#eb2f06",
+      GoodSamaritan = "#3c6382",
+      ParadiseGreen = "#b8e994"
+    ),
+    german = c(
+      BeniukonBronze = "#fa8231",
+      BlueGrey = "#778ca3",
+      TurquoiseTopaz = "#0fb9b1",
+      Innuendo = "#a5b1c2",
+      LighterPurple = "#a55eea",
+      Royalblue = "#3867d6",
+      Desire = "#eb3b5a",
+      MaximumBlueGreen = "#2bcbba",
+      AlgalFuel = "#20bf6b",
+      HighBlue = "#45aaf2",
+      BlueHorizon = "#4b6584",
+      TwinkleBlue = "#d1d8e0",
+      FusionRed = "#fc5c65",
+      ReptileGreen = "#26de81",
+      OrangeHibiscus = "#fd9644",
+      GloomyPurple = "#8854d0",
+      NYCTaxi = "#f7b731",
+      Flirtatious = "#fed330",
+      Boyzone = "#2d98da",
+      C64NTSC = "#4b7bec"
+    ),
+    indian = c(
+      OasisStream = "#9AECDB",
+      SalawakWhitePepper = "#F8EFBA",
+      BlueBell = "#3B3B98",
+      BrightUbe = "#D6A2E8",
+      SweetGarden = "#55E6C1",
+      PineGlade = "#BDC581",
+      HighlanderLavender = "#82589F",
+      FieryFuchsia = "#B33771",
+      SasquatchSocks = "#FC427B",
+      MagnetaPurple = "#6D214F",
+      ShipsOfficer = "#2C3A47",
+      OrchidOrange = "#FEA47F",
+      GeorgiaPeach = "#FD7272",
+      Keppel = "#58B19F",
+      FallingStar = "#CAD3C8",
+      SpiroDiscoBall = "#25CCF7",
+      HoneyGlow = "#EAB543",
+      EndingNavyBlue = "#182C61",
+      RichGardenia = "#F97F51",
+      ClearChill = "#1B9CFC"
+    ),
+    materialui = c(
+      Green = "#4CAF50",
+      Pink = "#E91E63",
+      Red = "#F44336",
+      Amber = "#FFC107",
+      Orange = "#FF9800",
+      LightGreen = "#8BC34A",
+      Teal = "#009688",
+      Yellow = "#FFEB3B",
+      Lime = "#CDDC39",
+      Indigo = "#3F51B5",
+      Brown = "#795548",
+      Grey = "#9E9E9E",
+      Cyan = "#00BCD4",
+      DeepOrange = "#FF5722",
+      BlueGrey = "#607D8B",
+      DeepPurple = "#673AB7",
+      LightBlue = "#03A9F4",
+      Purple = "#9C27B0",
+      Blue = "#2196F3"
+    ),
+    russian = c(
+      RoguePink = "#f8a5c2",
+      PencilLead = "#596275",
+      Biscay = "#303952",
+      SoftBlue = "#778beb",
+      RosyHighlight = "#f7d794",
+      FlamingoPink = "#f78fb3",
+      PurpleMountainMajesty = "#786fa6",
+      SawtoothOak = "#f19066",
+      CreamyPeach = "#f3a683",
+      BlueCuracao = "#3dc1d3",
+      PurpleCorallite = "#574b90",
+      Squeaky = "#63cdda",
+      DeepRose = "#c44569",
+      PorcelainRose = "#e66767",
+      AppleValley = "#ea8685",
+      Tigerlily = "#e15f41",
+      Cornflower = "#546de5",
+      Summertime = "#f5cd79",
+      BrewedMustard = "#e77f67",
+      OldGeranium = "#cf6a87"
+    ),
+    spanish = c(
+      MandarinSorbet = "#ffb142",
+      LuckyPoint = "#2c2c54",
+      EyeOfNewt = "#b33939",
+      SyntheticPumpkin = "#ff793f",
+      PalmSpringSplash = "#218c74",
+      CelestialBlue = "#33d9b2",
+      SpicedButternut = "#ffda79",
+      SwanWhite = "#f7f1e3",
+      ChileanFire = "#cd6133",
+      AlamedaOchre = "#cc8e35",
+      C64Purple = "#706fd3",
+      FluorescentRed = "#ff5252",
+      JacksonsPurple = "#40407a",
+      GreyProcelain = "#84817a",
+      Liberty = "#474787",
+      SummerSky = "#34ace0",
+      DevilBlue = "#227093",
+      HotStone = "#aaa69d",
+      CrocodileTooth = "#d1ccc0",
+      Desert = "#ccae62"
+    ),
+    swedish = c(
+      DarkPeriwinkle = "#575fcf",
+      SusetOrange = "#ff5e57",
+      NarenjiOrange = "#ffc048",
+      HighlighterPink = "#ef5777",
+      FreshSpeechBlue = "#3c40c6",
+      BlackPearl = "#1e272e",
+      YrielYellow = "#ffdd59",
+      RedORange = "#ff3f34",
+      FreshTurquoise = "#34e7e4",
+      SpiroDiscoBall = "#0fbcf9",
+      VibrantYellow = "#ffd32a",
+      HintOfElusiveBlue = "#d2dae2",
+      JadeDust = "#00d8d6",
+      ChromeYellow = "#ffa801",
+      `GoodNight!` = "#485460",
+      LondonSquare = "#808e9b",
+      SizzlingRed = "#f53b57",
+      MintyGren = "#0be881",
+      GreenTeal = "#05c46b",
+      Megaman = "#4bcffa"
+    ),
+    turkish = c(
+      ElectricBlue = "#7efff5",
+      BrightLilac = "#cd84f1",
+      NeonBlue = "#18dcff",
+      ShadowedSteel = "#4b4b4b",
+      LightRed = "#ff4d4d",
+      SpiroDiscoBall = "#17c0eb",
+      BalticSea = "#3d3d3d",
+      WinterGreen = "#32ff7e",
+      HammamBlue = "#67e6dc",
+      WeirdGreen = "#3ae374",
+      YoungSalmon = "#ffb8b8",
+      CornYellow = "#fff200",
+      UnmellowYellow = "#fffa65",
+      MandarinSorbet = "#ffaf40",
+      LightPurple = "#c56cf0",
+      LightSlateBlue = "#7d5fff",
+      LightIndigo = "#7158e2",
+      PrettyPlease = "#ffcccc",
+      RadiantYellow = "#ff9f1a",
+      RedOrange = "#ff3838"
+    )
+  )
 
   col_list
 }

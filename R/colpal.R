@@ -43,7 +43,7 @@ colpal = function(name = NULL, n = NULL, alpha = 1, withname = FALSE){
   }
 
   if(!withname){
-    pal = as.character(pal)
+    pal = unname(pal)
   }
 
   pal
@@ -77,7 +77,7 @@ displaypal = function(name, fontsize = 1, alpha = 1){
     names(pal) = names_temp
   }
 
-  layout(mat = matrix(data = 1:20, nrow = 4, ncol = 5, byrow = TRUE))
+  graphics::layout(mat = matrix(data = 1:20, nrow = 4, ncol = 5, byrow = TRUE))
   par(mar = c(0, 0, 0, 0))
   for(i in seq_along(pal)){
     plot(NA, xlim = c(0, 1), ylim = c(0, 1), axes = FALSE)

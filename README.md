@@ -40,6 +40,23 @@ american     aussie    british   canadian    chinese      dutch   flatUIv1
 > flatuicoloRs::displaypal(name = "german")
 ```
 
+flatuicoloRs also comes with ggplot scales. 
+```r
+library("ggplot2")
+data("diamonds")
+
+p1 = ggplot(subset(diamonds, carat >= 2.2),
+            aes(x = table, y = price, colour = cut)) +
+    geom_point(alpha = 0.7) +
+    geom_smooth(method = "loess", alpha = 0.05, size = 1, span = 1) +
+    theme_bw()
+    
+p1+scale_color_spanish()
+```
+<p align="center">
+<img src="inst/extdata/diamond_spanish.png">
+</p>
+
 ## Flat palettes
 
 ### flatUIv1
